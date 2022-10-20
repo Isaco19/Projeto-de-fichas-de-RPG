@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', cursive;
+}
+body{
+    align-items: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 154, 224);
+    color: aliceblue;
+    padding: 3%;
+}
+h3{
+margin: 0%;
+display: flex;
+justify-content: center;
+
+}
+
+.form_stats{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display:flex;
+    max-width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.save{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 40px;
+    cursor:pointer;
+
+}
+
+.save:hover{
+    background-color: crimson;
+    color: white;
+    transition-duration: 1s;
+}
+
+    
