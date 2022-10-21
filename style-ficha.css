@@ -15,6 +15,7 @@ body{
     background: rgb(23, 154, 224);
     color: aliceblue;
     padding: 3%;
+    background-repeat: repeat;
 }
 h3{
 margin: 0%;
